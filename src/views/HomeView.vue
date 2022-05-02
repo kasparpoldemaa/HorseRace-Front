@@ -1,7 +1,23 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <br>
+    <br>
+    <img class="horse-icon" alt="horse-icon" src='@/assets/horse.png'/>
+    <br>
+    <br>
+
+    <h3>Welcome to the world's best horse race betting site!</h3>
+    <h3>Accepting bets 24/7!</h3>
+    <br>
+    <p class="text-center">
+
+    To start betting click on "Place a bet" page in the navigation bar.
+
+    </p>
+
+
+
+    <footer class="bottom"><a href="https://www.flaticon.com/free-icons/horse" title="horse icons">Horse icons created by Kalashnyk - Flaticon</a> </footer>
   </div>
 </template>
 
@@ -15,4 +31,17 @@ export default {
     HelloWorld
   }
 }
+
+
 </script>
+<style scoped>
+.bottom {
+  position: fixed;
+  bottom: 0;
+}
+.horse-icon {
+  width: 10vw;
+  height: auto;
+}
+
+</style>
